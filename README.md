@@ -13,5 +13,9 @@
   - Glock 
   - AK-47
   - M4A1
+  - Desert Eagle
+  - HK MP5
+  - Famas
+  - M9 Beretta 
 
 ### The other unfinished weapons are just CSS guns
