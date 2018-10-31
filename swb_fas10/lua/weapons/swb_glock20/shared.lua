@@ -1,24 +1,20 @@
+
 AddCSLuaFile()
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "Glock-18"
+	SWEP.PrintName = "Glock-20"
 	SWEP.CSMuzzleFlashes = true
 	
 	SWEP.AimPos = Vector (-2.3764, -3.001, 1.6042)
 	SWEP.AimAng = Vector (0.0412, 0.0164, 0)
-	
+
 	SWEP.SprintPos = Vector(0, -17.514, -12.271)
-	SWEP.SprintAng = Vector(85, 0, 0)
-	
+	SWEP.SprintAng = Vector(82.5, 0, 0)
 	
 	SWEP.ZoomAmount = 5
 	SWEP.ViewModelMovementScale = 0.85
 	SWEP.Shell = "smallshell"
-	
-	SWEP.IconLetter = "y"
-	killicon.AddFont("swb_glock", "SWB_KillIcons", SWEP.IconLetter, Color(255, 80, 0, 150))
-	
 	SWEP.MuzzleEffect = "swb_pistol_small"
 end
 
@@ -50,7 +46,6 @@ SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
 SWEP.ViewModel			= "models/weapons/a_glock20.mdl"
 SWEP.WorldModel			= "models/weapons/b_glock20.mdl"
-
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 
@@ -72,3 +67,20 @@ SWEP.SpreadCooldown = 0.15
 SWEP.Shots = 1
 SWEP.Damage = 17
 SWEP.DeployTime = 1
+
+
+/*---------------------------------------------------------
+   Name: SWEP:Precache()
+   Desc: Use this function to precache stuff.
+---------------------------------------------------------*/
+
+function SWEP:Precache()
+	util.PrecacheSound("weapons/pistol_glock20/glock20_fire1.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_fire2.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_fire3.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_fire4.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_fire5.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_magin.wav")
+	util.PrecacheSound("weapons/pistol_glock20/glock20_magout.wav")	
+	util.PrecacheSound("weapons/pistol_glock20/glock20_sliderelease.wav")
+end
