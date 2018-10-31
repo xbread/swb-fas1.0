@@ -11,19 +11,20 @@ if CLIENT then
 	SWEP.SprintPos = Vector(0, -17.514, -12.271)
 	SWEP.SprintAng = Vector(85, 0, 0)
 	
+	
 	SWEP.ZoomAmount = 5
 	SWEP.ViewModelMovementScale = 0.85
 	SWEP.Shell = "smallshell"
 	
-	SWEP.IconLetter = "c"
-	killicon.AddFont("swb_glock18", "SWB_KillIcons", SWEP.IconLetter, Color(255, 80, 0, 150))
+	SWEP.IconLetter = "y"
+	killicon.AddFont("swb_glock", "SWB_KillIcons", SWEP.IconLetter, Color(255, 80, 0, 150))
 	
 	SWEP.MuzzleEffect = "swb_pistol_small"
 end
 
 SWEP.PlayBackRate = 30
 SWEP.PlayBackRateSV = 12
-SWEP.SpeedDec = 25
+SWEP.SpeedDec = 10
 SWEP.BulletDiameter = 9
 SWEP.CaseLength = 19
 
@@ -38,7 +39,7 @@ SWEP.NormalHoldType = "Pistol"
 SWEP.RunHoldType = "normal"
 SWEP.FireModes = {"semi"}
 SWEP.Base = "swb_base"
-SWEP.Category = "SUP Weapons"
+SWEP.Category = "EDEN Weapons"
 
 SWEP.Author			= "Spy"
 SWEP.Contact		= ""
@@ -53,23 +54,21 @@ SWEP.WorldModel			= "models/weapons/b_glock20.mdl"
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
 
-SWEP.Primary.ClipSize		= 18
-SWEP.Primary.DefaultClip	= 18
-SWEP.Primary.Automatic		= true
+SWEP.Primary.ClipSize		= 15
+SWEP.Primary.DefaultClip	= 15
+SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "Pistol"
 
-SWEP.FireDelay = 0.05
+SWEP.FireDelay = 0.13
 SWEP.FireSound = Sound("Weapof_Glock20.Shoot")
 SWEP.Recoil = 0.7
-SWEP.DryFire = true
 
-SWEP.HipSpread = 0.038
-SWEP.AimSpread = 0.013
+SWEP.HipSpread = 0.036
+SWEP.AimSpread = 0.0115
 SWEP.VelocitySensitivity = 1.2
 SWEP.MaxSpreadInc = 0.06
 SWEP.SpreadPerShot = 0.01
-SWEP.SpreadCooldown = 0.1
+SWEP.SpreadCooldown = 0.15
 SWEP.Shots = 1
-SWEP.Damage = 16
+SWEP.Damage = 17
 SWEP.DeployTime = 1
-SWEP.BurstCooldownMul = 3.5
