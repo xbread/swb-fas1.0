@@ -10,11 +10,11 @@ if CLIENT then
 	SWEP.PrintName = "Desert Eagle .50 AE"
 	SWEP.CSMuzzleFlashes = true
 	
-	SWEP.AimPos = Vector(-6.355, -2.747, 2.039)
-	SWEP.AimAng = Vector(0.209, 0, 0)
-	
+	SWEP.AimPos = Vector (-3.0537, -3.0001, 0.7817)
+	SWEP.AimAng = Vector (0.702, -0.0077, 0)
+
 	SWEP.SprintPos = Vector(0, -17.514, -12.271)
-	SWEP.SprintAng = Vector(63.637, 0, 0)
+	SWEP.SprintAng = Vector(85	, 0, 0)
 	
 	SWEP.ZoomAmount = 5
 	SWEP.ViewModelMovementScale = 0.85
@@ -54,8 +54,8 @@ SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cstrike/c_pist_deagle.mdl"
-SWEP.WorldModel		= "models/weapons/w_pist_deagle.mdl"
+SWEP.ViewModel			= "models/weapons/a_deserteagle.mdl"
+SWEP.WorldModel			= "models/weapons/b_deserteagle.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -66,8 +66,8 @@ SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "Pistol"
 
 SWEP.FireDelay = 0.25
-SWEP.FireSound = Sound("Weapon_DEagle.Single")
-SWEP.Recoil = 2.2
+SWEP.FireSound = Sound("Weapof_DEagle.Shoot")
+SWEP.Recoil = 4.2
 SWEP.DryFire = true
 
 SWEP.HipSpread = 0.045

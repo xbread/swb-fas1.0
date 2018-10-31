@@ -4,12 +4,12 @@ if CLIENT then
 	SWEP.DrawCrosshair = false
 	SWEP.PrintName = "FAMAS F1"
 	SWEP.CSMuzzleFlashes = true
-	
-	SWEP.AimPos = Vector(-2.681, -3.332, 1.44)
-	SWEP.AimAng = Vector(0, 0, 0)
-	
-	SWEP.SprintPos = Vector(0, 0, -0.7)
-	SWEP.SprintAng = Vector(-7.739, 28.141, 0)
+ 	
+	SWEP.AimPos = Vector (-2.3579, -5.0007, 0.7573)
+	SWEP.AimAng = Vector (0.028, 0.0006, 0)
+
+	SWEP.SprintPos 	= Vector (1.7661, -3.2645, 1.9996)
+	SWEP.SprintAng	= Vector (-19.3086, 29.9962, 0)
 	
 	SWEP.ZoomAmount = 15
 	
@@ -47,8 +47,8 @@ SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cstrike/c_rif_famas.mdl"
-SWEP.WorldModel		= "models/weapons/w_rif_famas.mdl"
+SWEP.ViewModel			= "models/weapons/a_famas.mdl"
+SWEP.WorldModel			= "models/weapons/b_famas.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -59,7 +59,7 @@ SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "Rifle"
 
 SWEP.FireDelay = 0.06
-SWEP.FireSound = Sound("Weapon_FAMAS.Single")
+SWEP.FireSound = Sound("Weapof_FAMAS.Shoot")
 SWEP.Recoil = 1.15
 
 SWEP.HipSpread = 0.05

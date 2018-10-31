@@ -5,11 +5,13 @@ if CLIENT then
 	SWEP.PrintName = "HK MP5"
 	SWEP.CSMuzzleFlashes = true
 
-	SWEP.AimPos = Vector(-5.329, -9.28, 2.02)
-	SWEP.AimAng = Vector(1.162, 0, 0)
-	
-	SWEP.SprintPos = Vector(0.736, -3.971, 1.802)
-	SWEP.SprintAng = Vector(-13.205, 37.048, 0)
+
+
+	SWEP.AimPos = Vector (-2.6316, -3, 1.5211)
+	SWEP.AimAng = Vector (0.3429, -1.1858, 0)
+
+	SWEP.SprintPos  = Vector (4.0928, 0.4246, 2.3712)
+	SWEP.SprintAng  = Vector (-18.4406, 33.1846, 0)
 	
 	SWEP.ZoomAmount = 15
 	SWEP.ViewModelMovementScale = 0.85
@@ -49,8 +51,8 @@ SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cstrike/c_smg_mp5.mdl"
-SWEP.WorldModel		= "models/weapons/w_smg_mp5.mdl"
+SWEP.ViewModel			= "models/weapons/a_mp5.mdl"
+SWEP.WorldModel			= "models/weapons/b_mp5.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -61,7 +63,7 @@ SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "smg1"
 
 SWEP.FireDelay = 0.075
-SWEP.FireSound = Sound("Weapon_MP5Navy.Single")
+SWEP.FireSound = Sound("Weapof_MP5.Shoot")
 SWEP.Recoil = 0.8
 
 SWEP.HipSpread = 0.04

@@ -2,14 +2,14 @@ AddCSLuaFile()
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "USP .45"
+	SWEP.PrintName = "M9 Beretta"
 	SWEP.CSMuzzleFlashes = true
+
+	SWEP.AimPos = Vector (-3.4915, -3.0001, 1.3414)
+	SWEP.AimAng = Vector (-0.1484, 0.0126, 0)
 	
-	SWEP.AimPos = Vector(-3.441, -4.723, 1.12)
-	SWEP.AimAng = Vector(0, 0, 0)
-	
-	SWEP.SprintPos = Vector(0, -17.514, -12.271)
-	SWEP.SprintAng = Vector(63.637, 0, 0)
+	SWEP.SprintPos = Vector(0, -6, -12.271)
+	SWEP.SprintAng = Vector(60, 0, 0)
 	
 	SWEP.ZoomAmount = 5
 	SWEP.ViewModelMovementScale = 0.85
@@ -50,8 +50,9 @@ SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cstrike/c_pist_usp.mdl"
-SWEP.WorldModel		= "models/weapons/w_pist_usp.mdl"
+
+SWEP.ViewModel			= "models/weapons/a_m9.mdl"
+SWEP.WorldModel			= "models/weapons/b_92f.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -62,13 +63,9 @@ SWEP.Primary.Automatic		= false
 SWEP.Primary.Ammo			= "Pistol"
 
 SWEP.FireDelay = 0.14
-SWEP.FireSound = Sound("Weapon_USP.Single")
-SWEP.FireSoundSuppressed = Sound("Weapon_USP.SilencedShot")
+SWEP.FireSound = Sound("Weapof_Beretta92fs.Shoot")
 SWEP.Recoil = 0.75
 SWEP.DryFire = true
-
-SWEP.Suppressable = true
-SWEP.SuppressedOnEquip = true
 
 SWEP.HipSpread = 0.04
 SWEP.AimSpread = 0.01
