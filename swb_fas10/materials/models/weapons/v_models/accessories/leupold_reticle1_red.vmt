@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\Leupold_reticle1_red"
+	"$translucent" "1"
+	"$additive" "1"
+	"$selfillum" "1"
+}

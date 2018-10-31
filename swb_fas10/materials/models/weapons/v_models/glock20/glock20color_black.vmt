@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\glock20\glock20color_black"
+	"$bumpmap"	"models\weapons\v_models\default_normal" //large
+	"$phong" 			"1"
+	"$phongexponent" 		"55"
+	"$phongboost" 			"0.3"
+	"$phongfresnelranges"		"[0.3 0.5 .6]"
+	"$halflambert"			"1"
+	
+}

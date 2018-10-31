@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\Leupold_reticle1_black"
+	"$alphatest" 1
+}

@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\reddot"
+	"$translucent" "1"
+	"$additive" "1"
+	"$selfillum" "1"
+}

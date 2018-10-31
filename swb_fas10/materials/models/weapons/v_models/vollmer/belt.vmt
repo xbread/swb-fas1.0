@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\weapons\v_models\vollmer\belt"
+	"$bumpmap"	"models\weapons\v_models\default_normal"
+	"$phong" 			"1"
+	"$phongexponent" 		"50"
+	"$phongboost" 			"3"
+	"$phongtint" 			"[.1 .6 0]"
+	"$phongfresnelranges"		"[0.5 0.6 1.0]"
+	"$halflambert"			"1"
+}

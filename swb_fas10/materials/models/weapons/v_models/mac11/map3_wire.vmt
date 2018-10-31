@@ -1,0 +1,15 @@
+VertexLitGeneric
+{
+	"$basetexture"	"models\weapons\v_models\mac11\map3_wire"
+	"$bumpmap"	"models\weapons\v_models\default_normal" //small
+
+	"$envmap" "env_cubemap"
+	"$envmaptint" "[.2 .2 .2]"
+	"$basemapalphaphongmask" 	"1"
+	"$phong" 			"1"
+	"$phongtint" 			"[0.7 0.7 1]"
+	"$phongexponent" 		"50"
+	"$phongboost" 			"1"
+	"$phongfresnelranges"		"[0.5 1.5 3.0]"//"[0.1 0.4 .8]"
+	"$halflambert"			"1"
+}

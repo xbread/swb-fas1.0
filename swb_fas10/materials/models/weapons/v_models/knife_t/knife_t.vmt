@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\\weapons\v_models\knife_t/knife_t"
+	//"$bumpmap" "models\\weapons\v_models\knife_t/knife_t_norm"
+}

@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\invis"
+	"$translucent" "1"
+	"$additive" "1"
+}

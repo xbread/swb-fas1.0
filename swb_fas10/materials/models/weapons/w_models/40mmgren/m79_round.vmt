@@ -1,0 +1,5 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\w_models\40mmgren\m79_round"
+	"$basealphaenvmapmask" 1
+}

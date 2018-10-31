@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\invis"
+	"$translucent" "1"
+	"$additive" "1"
+	"$bumpmap" "models\weapons\v_models\accessories\Lens_normal"
+ 	"$envmap" "env_cubemap"
+//	"$normalmapalphaenvmapmask" 1
+	"$envmapcontrast" 0.9
+	"$envmapsaturation" 0.6
+	"$envmaptint" "[ 0.5 0.5 0.5 ]"
+}

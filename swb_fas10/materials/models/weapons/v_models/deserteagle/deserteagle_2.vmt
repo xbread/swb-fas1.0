@@ -1,0 +1,13 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\\weapons\v_models\deserteagle\deserteagle_2.vtf"
+	"$model" 1
+	"$halflambert" 1
+	"$bumpmap"	"models\\weapons\v_models\deserteagle\deserteagle_2_norm.vtf"
+	"$phong" "1"
+	"$phongexponent" "10"
+	"$phongboost" "0.5"	
+	"$phongfresnelranges"	"[1 3 6]"
+//	"$halflambert" "1"
+	"$phongalbedotint" "1"
+}

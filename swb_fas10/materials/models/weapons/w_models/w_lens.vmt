@@ -1,0 +1,11 @@
+VertexLitGeneric
+{
+	"$baseTexture" "models\weapons\w_models\w_lens"
+	"$bumpmap" "models\weapons\v_models\accessories\Lens_normal"
+	"$phong" 			"1"
+	"$phongexponent" 		"20"
+	"$phongboost" 			"1.5"	
+	"$phongfresnelranges"		"[0.5 0.6 1]"
+	"$halflambert"			"1"
+	"$phongalbedotint"		"1"
+}

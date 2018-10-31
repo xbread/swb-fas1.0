@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\vignette"
+	"$translucent" "1"
+//	"$ignorez" "1"
+}

@@ -1,0 +1,10 @@
+"VertexLitGeneric"
+{
+	"$baseTexture" "models\weapons\v_models\accessories\Leupold_MkIV"
+	"$bumpmap"	"models\weapons\v_models\default_normal"
+	"$phong" 			"1"
+	"$phongexponent" 		"90"
+	"$phongboost" 			"0.6"
+	"$phongfresnelranges"		"[0.3 0.5 .6]"
+	"$halflambert"			"1"
+}
