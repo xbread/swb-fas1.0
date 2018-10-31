@@ -7,7 +7,7 @@
   These weapons were made for EDEN Solutions santosrp these were released on github for testing purposes. You may use these weapons for your own server. 
 
 ### Base?
-  The base for these weapons is slim weapon base created by Spy
+  The base for these weapons is sleek weapon base created by Spy
 
 ### Finished weapons 
   - Glock 
