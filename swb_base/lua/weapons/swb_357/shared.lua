@@ -2,7 +2,7 @@ AddCSLuaFile()
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "AK-47"
+	SWEP.PrintName = "swb test AK47"
 	SWEP.CSMuzzleFlashes = true
 	
 
