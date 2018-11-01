@@ -1,7 +1,7 @@
 ### How to install 
   - Download the files
-  - Make a folder in your garrysmod addons folder 
-  - Place evertyhing inside there *make sure you un-zip the file*
+  - Locate your garrysmod addons folder
+  - Place evertyhing inside there *make sure you un-zip the file* should be: swb_base and swb_fas10
 
 ### Information
   These weapons were made for EDEN Solutions santosrp these were released on github for testing purposes. You may use these weapons for your own server. 
