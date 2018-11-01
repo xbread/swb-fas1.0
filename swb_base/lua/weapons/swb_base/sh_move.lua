@@ -25,5 +25,4 @@ function SWB_Move(ply, m)
 		end
 	end
 end
-
-//hook.Add("Move", "SWB_Move", SWB_Move)
+ 

@@ -2,24 +2,17 @@ AddCSLuaFile()
 
 if CLIENT then
 	SWEP.DrawCrosshair = false
-	SWEP.PrintName = "G3SG/1"
+	SWEP.PrintName = "G3A3"
 	SWEP.CSMuzzleFlashes = true
 	
-	SWEP.AimPos = Vector(-6.204, -10.476, 1.858)
-	SWEP.AimAng = Vector(0, 0, 0)
-		
-	SWEP.SprintPos = Vector(0, 0, 0)
-	SWEP.SprintAng = Vector(-7.739, 28.141, 0)
+	SWEP.AimPos = Vector (-3.2942, -5.0006, 0.7174)
+	SWEP.AimAng = Vector (0.5454, -0.0083, 0)
+
+	SWEP.SprintPos  = Vector (4.0928, 0.4246, 2.3712)
+	SWEP.SprintAng   = Vector (-18.4406, 33.1846, 0)
 	
 	SWEP.ViewModelMovementScale = 1.15
 	
-	SWEP.DrawBlackBarsOnAim = true
-	SWEP.AimOverlay = surface.GetTextureID("swb/scope_rifle")
-	SWEP.FadeDuringAiming = true
-	SWEP.MoveWepAwayWhenAiming = true
-	SWEP.ZoomAmount = 70
-	SWEP.DelayedZoom = true
-	SWEP.SnapZoom = true
 	SWEP.SimulateCenterMuzzle = true
 	
 	SWEP.AdjustableZoom = true
@@ -61,8 +54,8 @@ SWEP.Instructions	= ""
 
 SWEP.ViewModelFOV	= 55
 SWEP.ViewModelFlip	= false
-SWEP.ViewModel		= "models/weapons/cstrike/c_snip_g3sg1.mdl"
-SWEP.WorldModel		= "models/weapons/w_snip_g3sg1.mdl"
+SWEP.ViewModel			= "models/weapons/a_g3.mdl"
+SWEP.WorldModel			= "models/weapons/b_g3a3.mdl"
 
 SWEP.Spawnable			= true
 SWEP.AdminSpawnable		= true
@@ -73,7 +66,7 @@ SWEP.Primary.Automatic		= true
 SWEP.Primary.Ammo			= "Rifle"
 
 SWEP.FireDelay = 0.12
-SWEP.FireSound = Sound("Weapon_G3SG1.Single")
+SWEP.FireSound = Sound("Weapof_G3.Shoot")
 SWEP.Recoil = 1.6
 
 SWEP.HipSpread = 0.055

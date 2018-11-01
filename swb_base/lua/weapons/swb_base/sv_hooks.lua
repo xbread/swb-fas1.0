@@ -19,4 +19,8 @@ local function SWB_EntityTakeDamage(ent, d)
 	end
 end
 
+local function getLogs( ent )
+	//
+end
+
 hook.Add("EntityTakeDamage", "SWB_EntityTakeDamage", SWB_EntityTakeDamage)

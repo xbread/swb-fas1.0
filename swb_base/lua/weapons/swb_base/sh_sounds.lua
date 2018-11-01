@@ -1,11 +1,11 @@
 --[[
-You can use this function to create weapon sound scripts if you plan to make weapons with separate sounds
-Example usage:
-SWB_RegisterSound("ExampleSound", "path/to/example/sound.format", 100)
+	You can use this function to create weapon sound scripts if you plan to make weapons with separate sounds
+	Example usage:
+	SWB_RegisterSound("ExampleSound", "path/to/example/sound.format", 100)
 
-Supported formats: .wav, .mp3, .ogg
-The 'level' argument indicates how far the sound will be audible.
-The 'pstart' and 'pend' arguments dictate the random pitch that will be used when the sound is played.
+	Supported formats: .wav, .mp3, .ogg
+	The 'level' argument indicates how far the sound will be audible.
+	The 'pstart' and 'pend' arguments dictate the random pitch that will be used when the sound is played.
 ]]--
 
 function SWB_RegisterSound(n, s, l, pstart, pend)

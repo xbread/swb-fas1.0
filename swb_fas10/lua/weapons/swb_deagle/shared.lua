@@ -13,8 +13,8 @@ if CLIENT then
 	SWEP.AimPos = Vector (-3.0537, -3.0001, 0.7817)
 	SWEP.AimAng = Vector (0.702, -0.0077, 0)
 
-	SWEP.SprintPos = Vector(0, -17.514, -12.271)
-	SWEP.SprintAng = Vector(85	, 0, 0)
+	SWEP.SprintPos = Vector(1.185, -15.796, -14.254)
+	SWEP.SprintAng = Vector(85, 0, 0)
 	
 	SWEP.ZoomAmount = 5
 	SWEP.ViewModelMovementScale = 0.85
