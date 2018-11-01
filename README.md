@@ -17,5 +17,8 @@
   - HK MP5
   - Famas
   - M9 Beretta 
+  - SG550
+  - G3A3
+  - M3 Super 90
 
 ### The other unfinished weapons are just CSS guns
